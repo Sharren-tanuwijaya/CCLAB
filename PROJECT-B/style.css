@@ -1,0 +1,13 @@
+body {
+   background-color: rgb(137, 212, 249)
+}
+
+.title {
+   font-weight: bold;
+   color: rgb(224, 60, 186);
+   position: absolute;
+   top: 10px;
+   left: 480px;
+   font-size: 50px;
+   font-weight: bold;
+}

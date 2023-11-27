@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(137,212,249);
+    height: 1200px;
+ }
+
+ img{
+  position: absolute;
+   width: 550px;
+   height: 680px;
+   top: 100px;
+   left: 450px;
+ }
+ .center {
+  display: block;
+  margin-left: 100px;
+  /* margin-right: auto; */
+  width: 50%;
+}
+.button{
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+ text-align: center;
+ display: inline-block;
+ font-size: 20px;
+ font-weight: bold;
+ margin: 4px 2px;
+ cursor: pointer;
+ position: absolute;
+ top: 1100px;
+left: 680px;
+  background-color: rgb(180,228,255);
+}
+.title{
+  position:absolute;
+  top: 10px;
+  left:430px;
+  color:rgb(255, 127, 251);
+  font-size: 50px;
+   font-weight: bold;
+}
