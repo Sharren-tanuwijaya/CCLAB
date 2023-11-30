@@ -10,6 +10,10 @@ let link;
 let a1;
 let a2;
 let a3;
+let a4;
+let a5;
+let a6;
+let a7;
 
 function preload() {
   earthImage = loadImage("images/earth.png");
@@ -69,18 +73,13 @@ class Airplane {
     this.y = 150;
     this.goalX = 200;
     this.goalY = 200;
-    this.sizeW = 400;
-    this.sizeH = 200;
+    this.sizeW = 190;
+    this.sizeH = 90;
 
   }
   update() {
     // update properties here to achieve
     // your dancer's desired moves and behaviour
-
-    if (keyIsPressed) {
-      this.sizeW = 190;
-      this.sizeH = 90;
-    }
 
     if (key == "1") {
       this.x = lerp(this.x, this.goalX + 159, 0.02);
@@ -253,15 +252,19 @@ class Link {
 function keyPressed(){
   if (key == "1") {
     try{
-      a2.remove();
       a3.remove();
+      a2.remove();
+      a4.remove();
+      a5.remove();
+      a6.remove();
+      a7.remove();
       }
       finally{
         a1=document.createElement('a')
         let linkText1 = document.createTextNode("EXPLORE HERE!");
         a1.appendChild(linkText1);
         a1.title = "EXPLORE HERE!";
-        a1.href = "http://127.0.0.1:5500/PROJECT-B/hawaii.html";
+        a1.href = "/PROJECT-B/hawaii.html";
         document.body.appendChild(a1);
         a1.style.position='absolute';
         a1.style.top='430px';
@@ -274,8 +277,12 @@ function keyPressed(){
   }
   if (key == "2") {
     try{
-        a3.remove();
-        a1.remove();
+      a1.remove();
+      a3.remove();
+      a4.remove();
+      a5.remove();
+      a6.remove();
+      a7.remove();
       }
     finally{    
     a2=document.createElement('a')
@@ -295,6 +302,10 @@ function keyPressed(){
     try{
       a1.remove();
       a2.remove();
+      a4.remove();
+      a5.remove();
+      a6.remove();
+      a7.remove();
     }
   finally{  
     
@@ -307,6 +318,98 @@ function keyPressed(){
     a3.style.position='absolute';
     a3.style.top='237px';
     a3.style.left='695px';
+  }
+   
+  }
+  if (key == "4") {
+    try{
+      a1.remove();
+      a2.remove();
+      a3.remove();
+      a5.remove();
+      a6.remove();
+      a7.remove();
+    }
+  finally{  
+    
+    a4=document.createElement('a')
+    let linkText4 = document.createTextNode("EXPLORE HERE!");
+    a4.appendChild(linkText4);
+    a4.title = "EXPLORE HERE!";
+    a4.href = "http://127.0.0.1:5500/PROJECT-B/italy.html";
+    document.body.appendChild(a4);
+    a4.style.position='absolute';
+    a4.style.top='289px';
+    a4.style.left='730px';
+  }
+   
+  }
+  if (key == "5") {
+    try{
+      a1.remove();
+      a2.remove();
+      a3.remove();
+      a4.remove();
+      a6.remove();
+      a7.remove();
+    }
+  finally{  
+    
+    a5=document.createElement('a')
+    let linkText5 = document.createTextNode("EXPLORE HERE!");
+    a5.appendChild(linkText5);
+    a5.title = "EXPLORE HERE!";
+    a5.href = "http://127.0.0.1:5500/PROJECT-B/greece.html";
+    document.body.appendChild(a5);
+    a5.style.position='absolute';
+    a5.style.top='282px';
+    a5.style.left='787px';
+  }
+   
+  }
+  if (key == "6") {
+    try{
+      a1.remove();
+      a2.remove();
+      a3.remove();
+      a4.remove();
+      a5.remove();
+      a7.remove();
+    }
+  finally{  
+    
+    a6=document.createElement('a')
+    let linkText6 = document.createTextNode("EXPLORE HERE!");
+    a6.appendChild(linkText6);
+    a6.title = "EXPLORE HERE!";
+    a6.href = "http://127.0.0.1:5500/PROJECT-B/dubai.html";
+    document.body.appendChild(a6);
+    a6.style.position='absolute';
+    a6.style.top='325px';
+    a6.style.left='872px';
+  }
+   
+  }
+  if (key == "7") {
+    try{
+      a1.remove();
+      a2.remove();
+      a3.remove();
+      a4.remove();
+      a5.remove();
+      a6.remove();
+    }
+  finally{  
+    
+    a7=document.createElement('a')
+    let linkText7 = document.createTextNode("EXPLORE HERE!");
+    a7.appendChild(linkText7);
+    a7.title = "EXPLORE HERE!";
+    a7.href = "http://127.0.0.1:5500/PROJECT-B/norway.html";
+    document.body.appendChild(a7);
+    a7.style.position='absolute';
+    a7.style.top='93px';
+    a7.style.left='748px';
   }
    
   }
