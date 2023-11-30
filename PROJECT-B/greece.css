@@ -1,0 +1,11 @@
+body{
+    background-color:rgb(124,153,212);
+ }
+ 
+ .title{
+   position: absolute;
+   top: 0px;
+   left: 320px;
+   width: 850px;
+   height: 220px;
+ }
