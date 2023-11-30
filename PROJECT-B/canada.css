@@ -1,9 +1,33 @@
 body{
-    background-color:rgb(137,212,249)
+    background-color:rgb(255,220,228);
  }
  
- p{
-    font-weight:bold;
-    color: rgb(145, 21, 116);
-    background-color:black;
+ .title{
+   position: absolute;
+   top: 0px;
+   left: 320px;
+   width: 900px;
+   height: 250px;
  }
+ .a{
+   position: absolute;
+   top: 300px;
+   left: 90px;
+   width: 300px;
+   height: 390px;
+ }
+ .b{
+  position: absolute;
+  top: 300px;
+  left: 390px;
+  width: 300px;
+  height: 390px;
+}
+.c{
+  position: absolute;
+  top: 300px;
+  left: 890px;
+  width: 300px;
+  height: 390px;
+}
+

@@ -1,28 +1,19 @@
 body{
-    background-color:rgb(174, 236, 216);
+    background-color:rgb(133,255,226);
  }
  
- p {
-    font-weight: bold;
-    color: rgb(12, 66, 60);
-    font-size: 50px;
-    position: absolute;
-    top: 350px;
-    left: 440px;
- }
+.title{
+   position: absolute;
+    top: 0px;
+    left: 289px;
+    width: 900px;
+    height: 290px;
 
- img {
-    position: absolute;
-    top: 30px;
-    left: 150px;
-    width: 400px;
-    height: 400px;
- }
-
+}
  .a {
     position: absolute;
-    top: 10px;
-    left: 350px;
+    top: 190px;
+    left: 90px;
     width: 400px;
     height: 400px;
  }
@@ -30,15 +21,23 @@ body{
  .b {
     position: absolute;
     top: 400px;
-    left: 150px;
+    left: 350px;
     width: 400px;
-    height: 200px;
+    height: 250px;
  }
 
  .c {
-   width: 600px;
+   width: 500px;
    height: 200px;
    position: absolute;
-   top: 600px;
-   left: 850px;
+   top: 290px;
+   left: 550px;
+}
+
+.d {
+   width: 520px;
+   height: 260px;
+   position: absolute;
+   top: 340px;
+   left: 880px;
 }

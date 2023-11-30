@@ -56,48 +56,48 @@ let msSinceStartofsketch = millis();
 
 
 if (msSinceStartofsketch >= 1000) {
-  image(t1Image, 25, 43, 200, 200);
-  image(t7Image, 1225, 20, 250, 200);
+  image(t1Image, 25, 73, 200, 200);
+  image(t7Image, 1225, 80, 250, 200);
  
 }
 if (msSinceStartofsketch >= 2000) {
- image(t2Image, 235, 249, 200, 200);
- image(t8Image, 1000, 91, 250, 200);
+ image(t2Image, 235, 279, 200, 200);
+ image(t8Image, 1000, 121, 250, 200);
 
 }
 if (msSinceStartofsketch >= 3000) {
-    image(t3Image, 36, 500, 200, 200);
-    image(t9Image, 1243, 272, 250, 200);
+    image(t3Image, 36, 530, 200, 200);
+    image(t9Image, 1243, 302, 250, 200);
 
    }
 if (msSinceStartofsketch >= 4000) {
-    image(t4Image, 245, 55, 200, 200);
-    image(t10Image, 1016, 475, 250, 200);
+    image(t4Image, 245, 85, 200, 200);
+    image(t10Image, 1016, 505, 250, 200);
 
    }
 if (msSinceStartofsketch >= 5000) {
-    image(t5Image, 40, 252, 200, 250);
-    image(t11Image, 1014, 298, 250, 200);
+    image(t5Image, 40, 272, 230, 270);
+    image(t11Image, 1014, 328, 250, 200);
 
    }
 if (msSinceStartofsketch >= 6000) {
-    image(t6Image, 229, 463, 200, 250);
-    image(t12Image, 1264, 480, 250, 250);
+    image(t6Image, 229, 493, 200, 250);
+    image(t12Image, 1264, 510, 250, 250);
 
    }
    if (msSinceStartofsketch >= 7000) {
-    image(t13Image, 61, 701, 200, 270);
-    image(t14Image, 1017, 680, 230, 200);
+    image(t13Image, 61, 731, 200, 270);
+    image(t14Image, 1017, 710, 230, 200);
  
    }
    if (msSinceStartofsketch >= 8000) {
-    image(t15Image, 278, 724, 250, 200);
-    image(t16Image, 1242, 733, 250, 230);
+    image(t15Image, 278, 754, 250, 200);
+    image(t16Image, 1242, 763, 250, 230);
  
    }
    if (msSinceStartofsketch >= 9000) {
-    image(t17Image, 535, 713, 250, 220);
-    image(t18Image, 796, 712, 220, 250);
+    image(t17Image, 535, 743, 250, 210);
+    image(t18Image, 796, 742, 220, 250);
  
    }
 
