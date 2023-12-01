@@ -1,5 +1,5 @@
-let beerImage;
-// let glass;
+// let beerImage;
+// // let glass;
 let berlinerImage;
 let pretzelsImage;
 let bratwurstImage;
@@ -9,7 +9,7 @@ let blutwurstImage;
 
 
 function preload() {
-    beerImage = loadImage("images/beer.png");
+    // beerImage = loadImage("images/beer.png");
     berlinerImage = loadImage("images/berliner.png");
      pretzelsImage= loadImage("images/pretzels.png");
 bratwurstImage= loadImage("images/bratwurst.png");
@@ -33,7 +33,7 @@ rouladenImage= loadImage("images/rouladen.png");
   function draw() {
     background(200);
 
-    image(beerImage, 90, 100, 360, 400);
+    // image(beerImage, 90, 100, 360, 400);
     image( berlinerImage, 450, 40, 260, 300);
     image(pretzelsImage, 700, 40,  260, 300);
     image(rouladenImage, 950, 40, 260, 300);
