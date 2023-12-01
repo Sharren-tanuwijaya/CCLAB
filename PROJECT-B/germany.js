@@ -10,11 +10,11 @@ let blutwurstImage;
 
 function preload() {
     // beerImage = loadImage("images/beer.png");
-    berlinerImage = loadImage("images/berliner.png");
-     pretzelsImage= loadImage("images/pretzels.png");
-bratwurstImage= loadImage("images/bratwurst.png");
-rouladenImage= loadImage("images/rouladen.png");
- blutwurstImage= loadImage("images/blutwurst.png");
+    berlinerImage = loadImage("images/berliner.PNG");
+     pretzelsImage= loadImage("images/pretzels.PNG");
+bratwurstImage= loadImage("images/bratwurst.PNG");
+rouladenImage= loadImage("images/rouladen.PNG");
+ blutwurstImage= loadImage("images/blutwurst.PNG");
 
     // glass = new Glass;
 
