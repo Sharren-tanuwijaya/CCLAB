@@ -360,7 +360,8 @@ function keyPressed(){
     let linkText5 = document.createTextNode("EXPLORE HERE!");
     a5.appendChild(linkText5);
     a5.title = "EXPLORE HERE!";
-    a5.href = "https://Sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/greece.html";
+    // a5.href = "https://Sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/greece.html";
+    a5.href = "greece.html";
     document.body.appendChild(a5);
     a5.style.position='absolute';
     a5.style.top='282px';
