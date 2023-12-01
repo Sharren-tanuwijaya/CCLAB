@@ -61,9 +61,9 @@ function draw() {
   link.update();
   
 
-  fill(255);
-  // showing the coordinates of x and y on the canvas
-  text("x:" + mouseX + "y:" + mouseY, mouseX, mouseY);
+  // fill(255);
+  // // showing the coordinates of x and y on the canvas
+  // text("x:" + mouseX + "y:" + mouseY, mouseX, mouseY);
 
 }
 
@@ -264,7 +264,7 @@ function keyPressed(){
         let linkText1 = document.createTextNode("EXPLORE HERE!");
         a1.appendChild(linkText1);
         a1.title = "EXPLORE HERE!";
-        a1.href = "https://sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/hawaii.html";
+        a1.href = "https://Sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/hawaii.html";
         document.body.appendChild(a1);
         a1.style.position='absolute';
         a1.style.top='430px';
@@ -289,7 +289,7 @@ function keyPressed(){
     let linkText2 = document.createTextNode("EXPLORE HERE!");
     a2.appendChild(linkText2);
     a2.title = "EXPLORE HERE!";
-    a2.href = "https://sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/canada.html";
+    a2.href = "https://Sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/canada.html";
     document.body.appendChild(a2);
     a2.style.position='absolute';
     a2.style.top='194px';
@@ -313,7 +313,8 @@ function keyPressed(){
     let linkText3 = document.createTextNode("EXPLORE HERE!");
     a3.appendChild(linkText3);
     a3.title = "EXPLORE HERE!";
-    a3.href = "https://sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/germany.html";
+    // a3.href = "https://Sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/germany.html";
+    a3.href = "germany.html";
     document.body.appendChild(a3);
     a3.style.position='absolute';
     a3.style.top='237px';
@@ -336,7 +337,7 @@ function keyPressed(){
     let linkText4 = document.createTextNode("EXPLORE HERE!");
     a4.appendChild(linkText4);
     a4.title = "EXPLORE HERE!";
-    a4.href = "https://sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/italy.html";
+    a4.href = "https://Sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/italy.html";
     document.body.appendChild(a4);
     a4.style.position='absolute';
     a4.style.top='289px';
@@ -359,7 +360,7 @@ function keyPressed(){
     let linkText5 = document.createTextNode("EXPLORE HERE!");
     a5.appendChild(linkText5);
     a5.title = "EXPLORE HERE!";
-    a5.href = "https://sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/greece.html";
+    a5.href = "https://Sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/greece.html";
     document.body.appendChild(a5);
     a5.style.position='absolute';
     a5.style.top='282px';
@@ -382,7 +383,7 @@ function keyPressed(){
     let linkText6 = document.createTextNode("EXPLORE HERE!");
     a6.appendChild(linkText6);
     a6.title = "EXPLORE HERE!";
-    a6.href = "https://sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/dubai.html";
+    a6.href = "https://Sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/dubai.html";
     document.body.appendChild(a6);
     a6.style.position='absolute';
     a6.style.top='325px';
@@ -405,7 +406,7 @@ function keyPressed(){
     let linkText7 = document.createTextNode("EXPLORE HERE!");
     a7.appendChild(linkText7);
     a7.title = "EXPLORE HERE!";
-    a7.href = "https://sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/norway.html";
+    a7.href = "https://Sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/norway.html";
     document.body.appendChild(a7);
     a7.style.position='absolute';
     a7.style.top='93px';
