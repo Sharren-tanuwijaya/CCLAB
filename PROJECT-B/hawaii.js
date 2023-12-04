@@ -13,16 +13,16 @@ let oahuImage;
  let hawaii2Music;
 
 function preload() {
-  locomocoImage= loadImage("images/locomoco.png");
- shaveImage = loadImage("images/shave.png");
- pokeImage = loadImage("images/poke.png");
-musubiImage = loadImage("images/musubi.png");
-huliImage = loadImage("https://github.com/Sharren-tanuwijaya/CCLAB/blob/main/PROJECT-B/images/hulihuli.PNG");
+  locomocoImage= loadImage("./images/locomoco.png");
+ shaveImage = loadImage("./images/shave.png");
+ pokeImage = loadImage("./images/poke.png");
+musubiImage = loadImage("./images/musubi.png");
+huliImage = loadImage("./images/hulihuli.png");
 
- oahuImage = loadImage("images/oahu.jpeg");
- honoluluImage = loadImage("images/honolulu.jpeg");
- kauaiImage = loadImage("images/kauai.jpeg");
- mauiImage = loadImage("images/maui.jpeg");
+ oahuImage = loadImage("./images/oahu.jpeg");
+ honoluluImage = loadImage("./images/honolulu.jpeg");
+ kauaiImage = loadImage("./images/kauai.jpeg");
+ mauiImage = loadImage("./images/maui.jpeg");
 
 hawaii1Music= loadSound("sound/hawaii1.mp3");
 hawaii2Music= loadSound("sound/hawaii2.mp3");
