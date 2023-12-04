@@ -40,7 +40,7 @@ function preload() {
 }
 
 function setup() {
-    let cnv = createCanvas(1500,1000);
+    let cnv = createCanvas(1500,1180);
     cnv.parent("canvasWrapper")
     cnv.position(0,80);
     cnv.style('z-index','-1');
@@ -96,14 +96,14 @@ if (msSinceStartofsketch >= 6000) {
  
    }
    if (msSinceStartofsketch >= 9000) {
-    image(t17Image, 535, 743, 250, 210);
-    image(t18Image, 796, 742, 220, 250);
+    image(t17Image, 535, 850, 250, 210);
+    image(t18Image, 796, 850, 220, 250);
  
    }
 
-fill(0);
-// showing the coordinates of x and y on the canvas
-text("x:" + mouseX + "y:" + mouseY, mouseX, mouseY);
+// fill(0);
+// // showing the coordinates of x and y on the canvas
+// text("x:" + mouseX + "y:" + mouseY, mouseX, mouseY);
 
 }
 

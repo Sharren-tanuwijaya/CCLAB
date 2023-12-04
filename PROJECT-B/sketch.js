@@ -2,11 +2,13 @@
 
 let earthImage;
 let airplaneImage;
+let textImage;
 
 let airplane;
 let clouds;
 let link;
 
+let bucketlistImage;
 let a1;
 let a2;
 let a3;
@@ -18,6 +20,8 @@ let a7;
 function preload() {
   earthImage = loadImage("images/earth.png");
   airplaneImage = loadImage("images/airplane.png");
+  bucketlistImage =loadImage("images/bucketlist.png");
+  textImage =loadImage("images/text1.png");
 
 
 }
@@ -43,6 +47,8 @@ function draw() {
 
 
   image(earthImage, 410, 150, 700, 700);
+  image(bucketlistImage, 30, 300, 320, 400);
+  image(textImage, 1150, 300, 270, 390);
 
 
   airplane.update();
@@ -360,8 +366,7 @@ function keyPressed(){
     let linkText5 = document.createTextNode("EXPLORE HERE!");
     a5.appendChild(linkText5);
     a5.title = "EXPLORE HERE!";
-    // a5.href = "https://Sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/greece.html";
-    a5.href = "greece.html";
+    a5.href = "https://Sharren-tanuwijaya.github.io/CCLAB/PROJECT-B/greece.html";
     document.body.appendChild(a5);
     a5.style.position='absolute';
     a5.style.top='282px';

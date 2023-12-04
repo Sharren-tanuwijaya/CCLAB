@@ -9,25 +9,19 @@ body{
    width: 900px;
    height: 250px;
  }
- .a{
-   position: absolute;
-   top: 300px;
-   left: 90px;
-   width: 300px;
-   height: 390px;
- }
- .b{
-  position: absolute;
-  top: 300px;
-  left: 390px;
-  width: 300px;
-  height: 390px;
+ .button{
+  border: none;
+  color: rgb(255,255,255);
+  padding: 15px 32px;
+  text-align: center;
+ display: inline-block;
+ font-size: 20px;
+ font-weight: bold;
+ margin: 4px 2px;
+ cursor: pointer;
+ position: absolute;
+ top: 1550px;
+  left: 1200px;
+  background-color: rgb(75, 27, 19)
 }
-.c{
-  position: absolute;
-  top: 300px;
-  left: 890px;
-  width: 300px;
-  height: 390px;
-}
-
+ 
